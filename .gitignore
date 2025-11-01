@@ -1,0 +1,52 @@
+# Node / frontend
+node_modules/
+.pnp/
+.pnp.js
+dist/
+build/
+coverage/
+
+# Python / backend
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.env
+.venv/
+venv/
+.poetry/
+.poetry-cache/
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+
+# Environment files
+.env
+.env.*
+**/.env
+**/.env.local
+**/.env.*
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.log
+
+# Terraform / infra
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Docker
+*.pid
+*.pid.lock
+
+# Misc
+coverage.xml
+reports/
+.tmp/
